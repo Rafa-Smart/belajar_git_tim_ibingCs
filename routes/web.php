@@ -19,3 +19,6 @@ require __DIR__.'/auth.php';
 Route::get('users', function () {
         return 'ini users';
 });
+Route::get('users', function () {
+        return 'ini users';
+});
