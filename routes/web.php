@@ -17,7 +17,10 @@ require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';
 
 
-Route::get('dashboard', function () {
-    return 'dashboard';
+Route::get('users', function () {
+        return 'ini users';
+});
+Route::get('users', function () {
+        return 'ini users';
 });
 
